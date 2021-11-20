@@ -1,0 +1,12 @@
+.h2Div{
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+}
+.circle{
+    height: 250px;
+    width: 250px;
+    background-color: #07D665;
+    border-radius: 50%;
+    
+}
