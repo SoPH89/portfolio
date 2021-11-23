@@ -1,0 +1,3 @@
+[submodule "themes/portfolio"]
+path = themes/portfolio
+url = https://github.com/SoPH89/portfolio-react-bootstrap.git
