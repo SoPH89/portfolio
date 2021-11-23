@@ -1,6 +1,7 @@
 .heroSection {
     color: white;
-    top: 100px; 
+    width: 180%;
+    margin-top: 10%;
 }
 .introHeader{
     font-size: 4em;
