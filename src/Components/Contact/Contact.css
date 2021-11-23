@@ -1,0 +1,19 @@
+.inputForm{
+    background-color: black;
+    border: 2px solid #07D665;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+ .formControl:not(active) {
+     color: white;
+ }
+
+input[type="text"]::-webkit-input-placeholder {
+    color: white;
+}
+input[as="textarea"]::-webkit-input-placeholder {
+    color: white;
+}
+input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}

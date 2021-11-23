@@ -1,0 +1,31 @@
+.h2Skills{
+     color: white;
+     font-weight: 700;
+     font-style: normal;
+     margin-bottom: 5%;
+}
+.CircularProgressbar{
+width: 200px;
+
+}
+.CircularProgressbar .CircularProgressbar-path{
+    stroke: #07D665;
+}
+.CircularProgressbar .CircularProgressbar-text{
+    fill: white;
+    font-size: 1em;
+    font-weight: 700;
+    text-anchor: middle;
+}
+.programmingHeadline{
+    color: white;
+    font-weight: 700;
+    margin-top: 10%;
+    right: 5%;
+}
+.first4Skills {
+    margin-bottom: 10%;
+}
+.second4Skills {
+    margin-bottom: 10%;
+}

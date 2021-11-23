@@ -1,0 +1,14 @@
+.navbar-light .navbar-brand{
+    width: 100%;
+    justify-content: center;
+}
+.footerStyle{
+    margin-right: 35vw;
+    background-color: black;
+
+}
+.ContainerStyle{
+    width: 100%;
+    background-color: black;
+    
+}
