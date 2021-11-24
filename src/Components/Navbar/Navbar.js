@@ -1,34 +1,68 @@
 import React from "react";
 import { Container, Navbar, NavDropdown, Nav} from 'react-bootstrap';
+import "./Navbar.css";
 
+let menuIcon = document.querySelector('menuIcon');
+let nav = document.querySelector('overlay-menu');
 const NavBar = ()=>{
     return (
-        
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Container>
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
-    </Nav>
-    <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-  </Container>
-</Navbar>
+          <>
+      <nav id="navbar" class="">
+  <div className="nav-wrapper">
+   
+    <div className="logo">
+  
+      <a href="#home" />
+      
+    </div>
+    {/* <div className="socialIcons" >
+<a class="icon" href="https://github.com">
+<AiFillGithub size="3rem"/></a>
+<a class="icon" href="https://linkedin.com">
+<AiFillLinkedin size="3rem"/></a>
+<a class="icon"href="https://instagram.com">
+<AiFillInstagram size="3rem"/></a>
+
+</div> */}
+    <ul id="menu">
+      <li><a href="#home">Home</a></li>
+  <li><a href="#About">About</a></li>
+  <li><a href="#portfolio">Portfolio</a></li>
+  <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div className="menuIcon" onClick={()=>{
+  let toggleIcon = document.querySelector('.menuIcon');
+   let nav = document.querySelector('.overlay-menu');
+   if (toggleIcon.className != 'menuIcon toggle' && nav.style.transform != 'translateX(0%)') {
+                toggleIcon.className += ' toggle';
+                nav.style.transform = 'translateX(0%)';
+                nav.style.transition = 'transform 0.2s ease-out';
+            } else {
+                toggleIcon.className = 'menuIcon';
+                nav.style.transform = 'translateX(-100%)';
+                nav.style.transition = 'transform 0.2s ease-out';
+            }
+}}>
+  <span className="icon icon-bars"></span>
+  <span className="icon icon-bars overlay"></span>
+</div>
+
+
+<div className="overlay-menu">
+  <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+
+ 
+        </>
 
     )
 }

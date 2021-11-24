@@ -11,7 +11,7 @@ const Header = () =>{
     <Col>
     <section className="heroSection">
     {/* <div className="leftSideButtons"> */}
-<h1 className="introHeader">Hey, I'm  <span style={{color: '#07D665'}}>Ilan Edri.</span>
+<h1 className="introHeader">Hey, I'm  <span style={{color: '#07D665'}}>Ilan.</span>
     <br/>
     A Junior Full Stack<span style={{color: '#07D665'}}> Developer.</span>
 </h1>
