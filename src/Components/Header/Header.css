@@ -29,6 +29,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .heroSection{
+        width: 200%;
+        margin-top: 60px;
+    }
     .introHeader {
        font-size: 24px;
     }
