@@ -39,4 +39,7 @@
     .backgroundAnimationDiv{
         display: none;
     }
+    #contactButton, #cvButton{
+        display: inline-block;
+    }
 }

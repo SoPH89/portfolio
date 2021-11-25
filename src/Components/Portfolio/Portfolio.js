@@ -36,15 +36,16 @@ const Portfolio = ()=> {
 MY<span style={{color: '#07D665'}}> PORTFOLIO</span></h2>
     <Col className="portfolioColumn"> <Card style={cardStyle}>
   <Card.Img variant="top" src={mardi} />
-  <Card.Body className="cardBodyStyle">
+  {/* <Card.Body className="cardBodyStyle">
     <Card.Title>Mardi Gras Festival</Card.Title>
     <Card.Text>
       This project was done only with HTML & CSS and some JS.
     </Card.Text>
       <Button size="lg" style={demoButton}>Live Demo <BsFillPlayFill/></Button>{' '}
   <Button size="lg" style={repositoryButton}>Repository <VscGithub/>{' '}</Button>
-  </Card.Body>
-</Card></Col>
+  </Card.Body> */}
+</Card>
+</Col>
 
     <Col  className="portfolioColumn"> <Card style={cardStyle}>
   <Card.Img variant="top" src={mardi} />
