@@ -1,7 +1,12 @@
 import React from "react";
-import { Container, Navbar, NavDropdown, Nav} from 'react-bootstrap';
-import "./Navbar.css";
+import Logo from '../../images/Logo.png'
+;import "./Navbar.css";
 
+
+const logoStyle ={
+  width: "50px",
+  height: "50px"
+}
 let menuIcon = document.querySelector('menuIcon');
 let nav = document.querySelector('overlay-menu');
 const NavBar = ()=>{
@@ -10,8 +15,8 @@ const NavBar = ()=>{
       <nav id="navbar" class="">
   <div className="nav-wrapper">
    
-    <div className="logo">
-  
+    <div className="logo" >
+  <img src={Logo} style={logoStyle} />
       <a href="#home" />
       
     </div>
