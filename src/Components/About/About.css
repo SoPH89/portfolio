@@ -1,7 +1,11 @@
-.h2Div{
+.h2About {
     color: white;
     font-weight: 700;
     font-style: normal;
+}
+.pAbout{
+    color: white;
+    font-weight: 600;
 }
 .circle{
     height: 350px;

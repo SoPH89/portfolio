@@ -6,8 +6,10 @@
   text-align: center;
 }
 
-.pl-texts {
+.h2Projects {
   width: 65%;
+  color: white;
+  float: left;
 }
 
 .pl-title {

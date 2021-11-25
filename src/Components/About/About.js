@@ -15,6 +15,7 @@ const About = ()=>{
     <h2 className="h2About">
 ABOUT<span style={{color: '#07D665'}}> ME</span>
     </h2>
+    <p className="pAbout">After years of working in e-commerce industry I decided to change my path and see how things look behind the hod. I found passion in programming and I am now ready for my next challenge in the programming world.</p>
     </div> 
     </Col>
     <Col> <div className="circle">
