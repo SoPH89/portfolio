@@ -1,11 +1,11 @@
 import React from "react";
-import Logo from '../../images/Logo.png'
+import Logo from '../../images/Logo.jpeg'
 ;import "./Navbar.css";
 
 
 const logoStyle ={
-  width: "50px",
-  height: "50px"
+  width: "40px",
+  height: "40px"
 }
 let menuIcon = document.querySelector('menuIcon');
 let nav = document.querySelector('overlay-menu');

@@ -29,3 +29,14 @@ width: 200px;
 .second4Skills {
     margin-bottom: 10%;
 }
+
+@media screen and (max-width: 600px){
+    .CircularProgressbar {
+width: 100px;
+margin-left: 30px;
+    }
+    .programmingHeadline{
+        font-size: 16px;
+        text-align: center;
+    }
+}
