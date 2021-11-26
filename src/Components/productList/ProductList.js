@@ -5,11 +5,15 @@ import { products } from "../../data";
 
 const ProductList = () => {
   return (
-    
-    <div className="pl">
-        <h2 className="h2Projects">
-My<span style={{color: '#07D665'}}> Porfolio</span>
+
+    <Container className="pl">
+      <Row>
+        <Col>
+      <div className="h2Div">
+    <h2 className="h2About">
+ABOUT<span style={{color: '#07D665'}}> ME</span>
     </h2>
+    </div>
       
       <div className="pl-list">
         
@@ -17,7 +21,12 @@ My<span style={{color: '#07D665'}}> Porfolio</span>
           <Product key={item.id} img={item.img} link={item.link} />
         ))}
       </div>
-    </div>
+       </Col>
+      </Row>
+    </Container>
+   
+    
+    
   );
 };
 
