@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col} from "react-bootstrap";
+import Me from "../../images/ProfileImage.jpg";
 import "./About.css";
 import { IoLocationOutline } from "react-icons/io5";
 import {BiCalendar} from "react-icons/bi";
@@ -19,6 +20,7 @@ ABOUT<span style={{color: '#07D665'}}> ME</span>
     </div> 
     </Col>
     <Col> <div className="circle">
+      <img src={Me} className="myImage"/>
         </div>  </Col>
   </Row >
   <Row md={4} className="contactinfo">

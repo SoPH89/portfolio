@@ -17,10 +17,10 @@ const Header = () =>{
 </h1>
 
  <div className="mb-2">
-    <Button id="contactButton" size="lg" mr="20px">
+    <Button className="contactButton" mr="20px">
       CONTACT ME
     </Button>{' '}
-    <Button id="cvButton" size="lg">
+    <Button className="cvButton">
       DOWNLOAD CV <BiDownload/>
     </Button>
   </div>

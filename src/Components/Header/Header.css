@@ -7,17 +7,23 @@
     font-size: 4em;
     top: 100px;
 }
-#contactButton {
+.contactButton {
     background-color: #07D665;
     color: white;
     font-size: 1.5rem;
     font-family: Montserrat;
+    border: 2px solid #07D665;
     font-weight: 600;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+.contactButton:hover{
+    background-color: #0EAF59;
+    border:2px solid #0EAF59;
 }
 
-#cvButton {
+.cvButton {
     background-color: transparent;
     color: white;
     font-size: 1.5rem;
@@ -25,12 +31,16 @@
     font-weight: 600;
     padding: 10px;
     border: 2px solid #07D665;
-    border-radius: 20px;
+    border-radius: 50px;
+}
+.cvButton:hover{
+    background-color: transparent;
+    border: 2px solid #07D665;
 }
 
 @media screen and (max-width: 600px) {
     .heroSection{
-        width: 200%;
+        width: 230%;
         margin-top: 60px;
     }
     .introHeader {
@@ -39,7 +49,17 @@
     .backgroundAnimationDiv{
         display: none;
     }
-    #contactButton, #cvButton{
-        display: inline-block;
+
+    .contactButton{
+        font-size: 0.8em;
+        margin-right: 10px;
+        margin-bottom: 20%;
+
+    }
+    .cvButton{
+        font-size: 0.8em;
+        background-color: white;
+        color: #07D665;
+        margin-bottom: 20%;
     }
 }
