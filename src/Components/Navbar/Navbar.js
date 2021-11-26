@@ -4,8 +4,8 @@ import Logo from '../../images/Logo.png'
 
 
 const logoStyle ={
-  width: "40px",
-  height: "40px"
+  width: "80px",
+  height: "80px"
 }
 let menuIcon = document.querySelector('menuIcon');
 let nav = document.querySelector('overlay-menu');
@@ -13,13 +13,14 @@ const NavBar = ()=>{
     return (
           <>
       <nav id="navbar" class="">
-  <div className="nav-wrapper">
-   
-    <div className="logo" >
+         <div className="logo" >
   <img src={Logo} style={logoStyle} />
       <a href="#home" />
       
     </div>
+  <div className="nav-wrapper">
+   
+   
     {/* <div className="socialIcons" >
 <a class="icon" href="https://github.com">
 <AiFillGithub size="3rem"/></a>
