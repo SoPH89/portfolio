@@ -1,13 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Container, Row, Col} from "react-bootstrap";
 import Me from "../../images/ProfileImage.jpg";
 import "./About.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { IoLocationOutline } from "react-icons/io5";
 import {BiCalendar} from "react-icons/bi";
 import {FaEnvelope} from "react-icons/fa";
 import {MdPhoneInTalk} from "react-icons/md";
 
+
 const About = ()=>{
+  useEffect(() => {
+    Aos.init({duration: 2000 });
+  }, []);
     return (
         <Container class="aboutContainer">
   <Row className="leftSide">
@@ -20,7 +26,7 @@ ABOUT<span style={{color: '#07D665'}}> ME</span>
     </div> 
     </Col>
     <Col> <div className="circle">
-      <img src={Me} className="myImage"/>
+      <img src={Me} className="myImage" data-aos="fade-left"/>
         </div>  </Col>
   </Row >
   <Row md={4} className="contactinfo">
