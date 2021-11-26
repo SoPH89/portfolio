@@ -2,11 +2,6 @@ import React from "react";
 import Logo from '../../images/Logo.png'
 ;import "./Navbar.css";
 
-
-const logoStyle ={
-  width: "80px",
-  height: "80px"
-}
 let menuIcon = document.querySelector('menuIcon');
 let nav = document.querySelector('overlay-menu');
 const NavBar = ()=>{
@@ -14,7 +9,7 @@ const NavBar = ()=>{
           <>
       <nav id="navbar" class="">
          <div className="logo" >
-  <img src={Logo} style={logoStyle} />
+  <img src={Logo} className="logoImg" />
       <a href="#home" />
       
     </div>

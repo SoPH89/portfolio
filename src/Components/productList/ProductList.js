@@ -11,7 +11,7 @@ const ProductList = () => {
         <Col>
       <div className="h2Div">
     <h2 className="h2About">
-ABOUT<span style={{color: '#07D665'}}> ME</span>
+My<span style={{color: '#07D665'}}> Portfolio</span>
     </h2>
     </div>
       
