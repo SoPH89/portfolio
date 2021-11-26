@@ -10,9 +10,17 @@ const formButton ={
 }
 const Contact = ()=>{
     return(
+  
         <Container>
   <Row>
-    <Col xs={5}>
+      <div className="h2Div">
+    <h2 className="h2About">
+My<span style={{color: '#07D665'}}> Contact</span>
+    </h2>
+    <p className="pContact"> I'm looking forward for my next challenge and opportunity to develop my skills as a Full Stack programmer. Feel free to send me a message.</p>
+    </div>
+    <Col sm={5}>
+    
     <Form style={{marginBottom: "10%"}}>
   <Row className="mb-3">
     <Form.Group  as={Col} controlId="formGridName">
