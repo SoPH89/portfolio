@@ -12,6 +12,7 @@ const Contact = ()=>{
     return(
   
         <Container>
+          <a name="Contact"></a>
   <Row>
       <div className="h2Div">
     <h2 className="h2About">

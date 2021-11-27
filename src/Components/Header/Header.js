@@ -7,9 +7,11 @@ import { BiDownload} from "react-icons/bi";
 const Header = () =>{
     return (
         <Container>
+           
   <Row>
     <Col>
     <section className="heroSection">
+      
     {/* <div className="leftSideButtons"> */}
 <h1 className="introHeader">Hey, I'm  <span style={{color: '#07D665'}}>Ilan.</span>
     <br/>
@@ -386,6 +388,7 @@ const Header = () =>{
         </linearGradient>
       </defs>
     </svg>
+    <a name="About"></a>
   </div>
 
     </Col>

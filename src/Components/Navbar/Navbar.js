@@ -7,7 +7,9 @@ let nav = document.querySelector('overlay-menu');
 const NavBar = ()=>{
     return (
           <>
+          <a name="Home"></a>
       <nav id="navbar" class="">
+        
          <div className="logo" >
   <img src={Logo} className="logoImg" />
       <a href="#home" />
@@ -26,10 +28,10 @@ const NavBar = ()=>{
 
 </div> */}
     <ul id="menu">
-      <li><a href="#home">Home</a></li>
+      <li><a href="#Home">Home</a></li>
   <li><a href="#About">About</a></li>
-  <li><a href="#portfolio">Portfolio</a></li>
-  <li><a href="#contact">Contact</a></li>
+  <li><a href="#Portfolio">Portfolio</a></li>
+  <li><a href="#Contact">Contact</a></li>
     </ul>
   </div>
 </nav>

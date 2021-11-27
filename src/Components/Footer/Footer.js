@@ -16,10 +16,10 @@ const Footer= ()=>{
     
     <Navbar.Brand></Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="#home" style={footerStyle}>Home</Nav.Link>
-      <Nav.Link href="#about"style={footerStyle}>About</Nav.Link>
-      <Nav.Link href="#portfolio"style={footerStyle}>Portfolio</Nav.Link>
-      <Nav.Link href="#contact"style={footerStyle}>Contact</Nav.Link>
+      <Nav.Link href="#Home" style={footerStyle}>Home</Nav.Link>
+      <Nav.Link href="#About"style={footerStyle}>About</Nav.Link>
+      <Nav.Link href="#Portfolio"style={footerStyle}>Portfolio</Nav.Link>
+      <Nav.Link href="#Contact"style={footerStyle}>Contact</Nav.Link>
     </Nav>
      </Navbar>
      </div>
