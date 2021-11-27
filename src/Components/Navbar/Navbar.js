@@ -7,12 +7,13 @@ let nav = document.querySelector('overlay-menu');
 const NavBar = ()=>{
     return (
           <>
-          <a name="Home"></a>
+
       <nav id="navbar" class="">
         
          <div className="logo" >
-  <img src={Logo} className="logoImg" />
-      <a href="#home" />
+            
+ <a href="http://ilanedri.com"> <img src={Logo} className="logoImg" /></a>
+      {/* <a href="#home" /> */}
       
     </div>
   <div className="nav-wrapper">
