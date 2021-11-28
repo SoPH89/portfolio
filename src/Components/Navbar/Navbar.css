@@ -19,7 +19,7 @@ a {
 #navbar {
     background: #2F303A;
     color: rgb(13, 26, 38);
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     height: 60px;
     line-height: 60px;
@@ -165,7 +165,7 @@ a {
     .menuIcon {
         cursor: pointer;
         display: block;
-        position: fixed;
+        /* position: fixed; */
         right: 15px;
         top: 20px;
         height: 23px;
