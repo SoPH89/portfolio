@@ -1,21 +1,22 @@
 import mardi from './images/Mardi Grad Project.png';
 import mzian from './images/Mzian Project.png';
+import portfolio from './images/My Portfolio.png';
 export const products = [
   {
     id: 1,
     img: mardi,
-    link: "http://lama.dev",
+    link: "https://mardigras.ilanedri.com/",
     
   },
   {
     id: 2,
     img: mzian,
-    link: "http://lama.dev",
+    link: "http://mzian.co.il",
   },
   {
     id: 3,
-    img: "",
-    link: "http://lama.dev",
+    img: "portfolio",
+    link: "http://ilanedri.com",
   },
   {
     id: 4,
