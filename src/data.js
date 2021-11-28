@@ -15,7 +15,7 @@ export const products = [
   },
   {
     id: 3,
-    img: "portfolio",
+    img: portfolio,
     link: "http://ilanedri.com",
   },
   {
