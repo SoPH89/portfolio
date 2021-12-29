@@ -2,6 +2,7 @@ import React from "react";
 import {Container, Row, Col, Button} from 'react-bootstrap';
 import "./Header.css";
 import { BiDownload} from "react-icons/bi";
+import resume from "./Ilan Edri Resume.pdf"
 
 
 const Header = () =>{
@@ -22,9 +23,10 @@ const Header = () =>{
     <Button className="contactButton" mr="20px">
       CONTACT ME
     </Button>{' '}
+     <a href={resume} download>
     <Button className="cvButton">
       DOWNLOAD CV <BiDownload/>
-    </Button>
+    </Button></a>
   </div>
 {/* </div> */}
 </section>
