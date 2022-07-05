@@ -1,6 +1,7 @@
 import mardi from './images/Mardi Grad Project.png';
 import mzian from './images/Mzian Project.png';
 import portfolio from './images/My Portfolio.png';
+import ecommerce from './images/Ecommerce shop.png'
 export const products = [
   {
     id: 1,
@@ -20,8 +21,8 @@ export const products = [
   },
   {
     id: 4,
-    img: "",
-    link: "http://lama.dev",
+    img: ecommerce,
+    link: "https://ecommerce-shop-ilan.herokuapp.com/",
   },
   {
     id: 5,
