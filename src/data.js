@@ -22,7 +22,7 @@ export const products = [
   {
     id: 4,
     img: ecommerce,
-    link: "https://ecommerce-shop-ilan.herokuapp.com/",
+    link: "https://e-commerce-shop-611u.onrender.com",
   },
   {
     id: 5,
